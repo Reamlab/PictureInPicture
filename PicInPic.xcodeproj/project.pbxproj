@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5D362B81E520DE20030429B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D362B71E520DE20030429B /* AppDelegate.swift */; };
+		F5D362BA1E520DE20030429B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D362B91E520DE20030429B /* ViewController.swift */; };
+		F5D362BC1E520DE20030429B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5D362BB1E520DE20030429B /* Assets.xcassets */; };
+		F5D362BF1E520DE20030429B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5D362BD1E520DE20030429B /* Main.storyboard */; };
+		F5D362CA1E520DE20030429B /* PicInPicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D362C91E520DE20030429B /* PicInPicTests.swift */; };
+		F5D362D51E520DE20030429B /* PicInPicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D362D41E520DE20030429B /* PicInPicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5D362C61E520DE20030429B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5D362AC1E520DE20030429B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5D362B31E520DE20030429B;
+			remoteInfo = PicInPic;
+		};
+		F5D362D11E520DE20030429B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5D362AC1E520DE20030429B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5D362B31E520DE20030429B;
+			remoteInfo = PicInPic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5D362B41E520DE20030429B /* PicInPic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicInPic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D362B71E520DE20030429B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5D362B91E520DE20030429B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5D362BB1E520DE20030429B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5D362BE1E520DE20030429B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5D362C01E520DE20030429B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D362C51E520DE20030429B /* PicInPicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicInPicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D362C91E520DE20030429B /* PicInPicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicInPicTests.swift; sourceTree = "<group>"; };
+		F5D362CB1E520DE20030429B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5D362D01E520DE20030429B /* PicInPicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicInPicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5D362D41E520DE20030429B /* PicInPicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicInPicUITests.swift; sourceTree = "<group>"; };
+		F5D362D61E520DE20030429B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5D362B11E520DE20030429B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D362C21E520DE20030429B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D362CD1E520DE20030429B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5D362AB1E520DE20030429B = {
+			isa = PBXGroup;
+			children = (
+				F5D362B61E520DE20030429B /* PicInPic */,
+				F5D362C81E520DE20030429B /* PicInPicTests */,
+				F5D362D31E520DE20030429B /* PicInPicUITests */,
+				F5D362B51E520DE20030429B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5D362B51E520DE20030429B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5D362B41E520DE20030429B /* PicInPic.app */,
+				F5D362C51E520DE20030429B /* PicInPicTests.xctest */,
+				F5D362D01E520DE20030429B /* PicInPicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5D362B61E520DE20030429B /* PicInPic */ = {
+			isa = PBXGroup;
+			children = (
+				F5D362B71E520DE20030429B /* AppDelegate.swift */,
+				F5D362B91E520DE20030429B /* ViewController.swift */,
+				F5D362BB1E520DE20030429B /* Assets.xcassets */,
+				F5D362BD1E520DE20030429B /* Main.storyboard */,
+				F5D362C01E520DE20030429B /* Info.plist */,
+			);
+			path = PicInPic;
+			sourceTree = "<group>";
+		};
+		F5D362C81E520DE20030429B /* PicInPicTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5D362C91E520DE20030429B /* PicInPicTests.swift */,
+				F5D362CB1E520DE20030429B /* Info.plist */,
+			);
+			path = PicInPicTests;
+			sourceTree = "<group>";
+		};
+		F5D362D31E520DE20030429B /* PicInPicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5D362D41E520DE20030429B /* PicInPicUITests.swift */,
+				F5D362D61E520DE20030429B /* Info.plist */,
+			);
+			path = PicInPicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5D362B31E520DE20030429B /* PicInPic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D362D91E520DE20030429B /* Build configuration list for PBXNativeTarget "PicInPic" */;
+			buildPhases = (
+				F5D362B01E520DE20030429B /* Sources */,
+				F5D362B11E520DE20030429B /* Frameworks */,
+				F5D362B21E520DE20030429B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicInPic;
+			productName = PicInPic;
+			productReference = F5D362B41E520DE20030429B /* PicInPic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5D362C41E520DE20030429B /* PicInPicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D362DC1E520DE20030429B /* Build configuration list for PBXNativeTarget "PicInPicTests" */;
+			buildPhases = (
+				F5D362C11E520DE20030429B /* Sources */,
+				F5D362C21E520DE20030429B /* Frameworks */,
+				F5D362C31E520DE20030429B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5D362C71E520DE20030429B /* PBXTargetDependency */,
+			);
+			name = PicInPicTests;
+			productName = PicInPicTests;
+			productReference = F5D362C51E520DE20030429B /* PicInPicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5D362CF1E520DE20030429B /* PicInPicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5D362DF1E520DE20030429B /* Build configuration list for PBXNativeTarget "PicInPicUITests" */;
+			buildPhases = (
+				F5D362CC1E520DE20030429B /* Sources */,
+				F5D362CD1E520DE20030429B /* Frameworks */,
+				F5D362CE1E520DE20030429B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5D362D21E520DE20030429B /* PBXTargetDependency */,
+			);
+			name = PicInPicUITests;
+			productName = PicInPicUITests;
+			productReference = F5D362D01E520DE20030429B /* PicInPicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5D362AC1E520DE20030429B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = i.razuvaev;
+				TargetAttributes = {
+					F5D362B31E520DE20030429B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TFP489R8V9;
+						ProvisioningStyle = Automatic;
+					};
+					F5D362C41E520DE20030429B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TFP489R8V9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F5D362B31E520DE20030429B;
+					};
+					F5D362CF1E520DE20030429B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TFP489R8V9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F5D362B31E520DE20030429B;
+					};
+				};
+			};
+			buildConfigurationList = F5D362AF1E520DE20030429B /* Build configuration list for PBXProject "PicInPic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5D362AB1E520DE20030429B;
+			productRefGroup = F5D362B51E520DE20030429B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5D362B31E520DE20030429B /* PicInPic */,
+				F5D362C41E520DE20030429B /* PicInPicTests */,
+				F5D362CF1E520DE20030429B /* PicInPicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5D362B21E520DE20030429B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D362BC1E520DE20030429B /* Assets.xcassets in Resources */,
+				F5D362BF1E520DE20030429B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D362C31E520DE20030429B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D362CE1E520DE20030429B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5D362B01E520DE20030429B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D362BA1E520DE20030429B /* ViewController.swift in Sources */,
+				F5D362B81E520DE20030429B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D362C11E520DE20030429B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D362CA1E520DE20030429B /* PicInPicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D362CC1E520DE20030429B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5D362D51E520DE20030429B /* PicInPicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5D362C71E520DE20030429B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5D362B31E520DE20030429B /* PicInPic */;
+			targetProxy = F5D362C61E520DE20030429B /* PBXContainerItemProxy */;
+		};
+		F5D362D21E520DE20030429B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5D362B31E520DE20030429B /* PicInPic */;
+			targetProxy = F5D362D11E520DE20030429B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5D362BD1E520DE20030429B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5D362BE1E520DE20030429B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5D362D71E520DE20030429B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5D362D81E520DE20030429B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		F5D362DA1E520DE20030429B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TFP489R8V9;
+				INFOPLIST_FILE = PicInPic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = i.razuvaev.PicInPic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F5D362DB1E520DE20030429B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TFP489R8V9;
+				INFOPLIST_FILE = PicInPic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = i.razuvaev.PicInPic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F5D362DD1E520DE20030429B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TFP489R8V9;
+				INFOPLIST_FILE = PicInPicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = i.razuvaev.PicInPicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicInPic.app/Contents/MacOS/PicInPic";
+			};
+			name = Debug;
+		};
+		F5D362DE1E520DE20030429B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TFP489R8V9;
+				INFOPLIST_FILE = PicInPicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = i.razuvaev.PicInPicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PicInPic.app/Contents/MacOS/PicInPic";
+			};
+			name = Release;
+		};
+		F5D362E01E520DE20030429B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TFP489R8V9;
+				INFOPLIST_FILE = PicInPicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = i.razuvaev.PicInPicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PicInPic;
+			};
+			name = Debug;
+		};
+		F5D362E11E520DE20030429B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = TFP489R8V9;
+				INFOPLIST_FILE = PicInPicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = i.razuvaev.PicInPicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PicInPic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5D362AF1E520DE20030429B /* Build configuration list for PBXProject "PicInPic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D362D71E520DE20030429B /* Debug */,
+				F5D362D81E520DE20030429B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5D362D91E520DE20030429B /* Build configuration list for PBXNativeTarget "PicInPic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D362DA1E520DE20030429B /* Debug */,
+				F5D362DB1E520DE20030429B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5D362DC1E520DE20030429B /* Build configuration list for PBXNativeTarget "PicInPicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D362DD1E520DE20030429B /* Debug */,
+				F5D362DE1E520DE20030429B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5D362DF1E520DE20030429B /* Build configuration list for PBXNativeTarget "PicInPicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5D362E01E520DE20030429B /* Debug */,
+				F5D362E11E520DE20030429B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5D362AC1E520DE20030429B /* Project object */;
+}
