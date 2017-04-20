@@ -12,6 +12,8 @@ class ViewController: NSViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
+    
+    self.view.layer?.backgroundColor = CGColor(red: 255, green: 255, blue: 255, alpha: 0.4);
 
     // Do any additional setup after loading the view.
   }
